@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.VisualBasic.CompilerServices;
-using stive_cozi.classes;
+using colectii_generice.colectii;
 
-namespace stive_cozi
+namespace colectii_generice
 {
     public class Probleme
     {

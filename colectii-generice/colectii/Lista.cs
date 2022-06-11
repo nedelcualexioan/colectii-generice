@@ -10,6 +10,17 @@ namespace colectii_generice.colectii
     {
         Node<T> head;
 
+        public Node<T> Head
+        {
+            get => this.head;
+            set => this.head = value;
+        }
+
+        public T Max
+        {
+            get => this.max();
+        }
+
         public void addStart(T data)
         {
             if(head == null)
@@ -46,18 +57,28 @@ namespace colectii_generice.colectii
 
         public void add(T elem)
         {
-            Node<T> enumerator = head;
-
-            while(enumerator.Next != null)
+            if (head == null)
             {
-                enumerator = enumerator.Next;
+                head = new Node<T>();
+
+                head.Data = elem;
+                head.Next = null;
             }
+            else
+            {
+                Node<T> enumerator = head;
 
-            Node<T> node = new Node<T>();
-            node.Data = elem;
-            node.Next = null;
+                while (enumerator.Next != null)
+                {
+                    enumerator = enumerator.Next;
+                }
 
-            enumerator.Next = node;
+                Node<T> node = new Node<T>();
+                node.Data = elem;
+                node.Next = null;
+
+                enumerator.Next = node;
+            }
         }
 
         public void remove(T elem)
@@ -195,6 +216,62 @@ namespace colectii_generice.colectii
                     }
                 }
             } while (flag == 1);
+        }
+
+        private T max()
+        {
+            T max = head.Data;
+
+            Node<T> enumerator = head.Next;
+
+            while (enumerator != null)
+            {
+                if (enumerator.Data.CompareTo(max) > 0)
+                {
+                    max = enumerator.Data;
+                }
+
+                enumerator = enumerator.Next;
+            }
+
+            return max;
+        }
+
+        public void merge(Lista<T> list)
+        {
+            Node<T> enumerator = head;
+
+            while (enumerator.Next != null)
+            {
+                enumerator = enumerator.Next;
+            }
+
+            Node<T> iterat = list.Head;
+
+            while (iterat != null)
+            {
+                enumerator.Next = new Node<T>(iterat.Data, iterat.Next);
+
+                iterat = iterat.Next;
+                enumerator = enumerator.Next;
+            }
+        }
+
+        public void reverse()
+        {
+            for (int i = 0; i < size() / 2; i++)
+            {
+                T e1 = get(i);
+                T e2 = get(size() - 1 - i);
+
+                set(e1, size() - 1 - i);
+                set(e2, i);
+            }
+        }
+
+        public void swap(ref Lista<T> other)
+        {
+            (other.Head, this.Head) = (this.Head, other.Head);
         }
     }
 }

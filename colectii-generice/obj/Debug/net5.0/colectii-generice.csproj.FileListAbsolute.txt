@@ -14,3 +14,19 @@ C:\Users\anndr\Documents\colectii-generice\colectii-generice\obj\Debug\net5.0\co
 C:\Users\anndr\Documents\colectii-generice\colectii-generice\obj\Debug\net5.0\ref\colectii-generice.dll
 C:\Users\anndr\Documents\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.pdb
 C:\Users\anndr\Documents\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.genruntimeconfig.cache
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.csproj.AssemblyReference.cache
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.AssemblyInfoInputs.cache
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.AssemblyInfo.cs
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.csproj.CoreCompileInputs.cache
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.dll
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\obj\Debug\net5.0\ref\colectii-generice.dll
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.pdb
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\bin\Debug\net5.0\colectii-generice.exe
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\bin\Debug\net5.0\colectii-generice.deps.json
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\bin\Debug\net5.0\colectii-generice.runtimeconfig.json
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\bin\Debug\net5.0\colectii-generice.runtimeconfig.dev.json
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\bin\Debug\net5.0\colectii-generice.dll
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\bin\Debug\net5.0\ref\colectii-generice.dll
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\bin\Debug\net5.0\colectii-generice.pdb
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\colectii-generice\obj\Debug\net5.0\colectii-generice.genruntimeconfig.cache

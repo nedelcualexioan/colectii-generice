@@ -1,0 +1,11 @@
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\bin\Debug\parc-auto.exe.config
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\bin\Debug\parc-auto.exe
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\bin\Debug\parc-auto.pdb
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\obj\Debug\parc-auto.csproj.AssemblyReference.cache
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\obj\Debug\parc_auto.FrmHome.resources
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\obj\Debug\parc_auto.Mockupuri.MockupHome.resources
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\obj\Debug\parc_auto.Properties.Resources.resources
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\obj\Debug\parc-auto.csproj.GenerateResource.cache
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\obj\Debug\parc-auto.csproj.CoreCompileInputs.cache
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\obj\Debug\parc-auto.exe
+C:\Users\anndr\Documents\C#\OOP\Colectii generice\colectii-generice\parc-auto\obj\Debug\parc-auto.pdb

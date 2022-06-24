@@ -8,20 +8,37 @@ namespace colectii_generice
 {
     public class Persoana : IComparable<Persoana>
     {
-
+        private int id;
         private String nume;
         private String prenume;
         private int varsta;
         private String adresa;
 
-        public Persoana(String nume, String prenume, int varsta, String adresa)
+
+
+        public Persoana(int id, String nume, String prenume, int varsta, String adresa)
         {
+            this.id = id;
             this.nume = nume;
             this.prenume = prenume;
             this.varsta = varsta;
             this.adresa = adresa;
         }
 
+        public Persoana(String line)
+        {
+            id = int.Parse(line.Split(',')[0]);
+            nume = line.Split(',')[1];
+            prenume = line.Split(',')[2];
+            varsta = int.Parse(line.Split(',')[3]);
+            adresa = line.Split(',')[4];
+        }
+
+        public int Id
+        {
+            get => id;
+            set => id = value;
+        }
         public String FullName
         {
             get => this.nume + " " + this.prenume;
@@ -70,10 +87,11 @@ namespace colectii_generice
             return false;
         }
 
-        public override string ToString()
+        public override String ToString()
         {
             String text = "";
 
+            text += "ID: " + id + "\n";
             text += "Nume: " + nume + "\n";
             text += "Prenume: " + prenume + "\n";
             text += "Varsta: " + varsta + "\n";

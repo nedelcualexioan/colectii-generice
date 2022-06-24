@@ -1,5 +1,7 @@
 ﻿using colectii_generice.colectii;
 using System;
+using System.Collections.Generic;
+using colectii_generice.controllers;
 
 namespace colectii_generice
 {
@@ -7,21 +9,9 @@ namespace colectii_generice
     {
         static void Main(string[] args)
         {
-            Lista<int> l1 = new Lista<int>();
-            l1.add(1);
-            l1.add(2);
-            l1.add(3);
+            Controller controller = new Controller();
 
-            Lista<int> l2 = new Lista<int>();
-
-            l2.add(5);
-            l2.add(6);
-            l2.add(7);
-
-            l1.swap(ref l2);
-
-            l2.afisare();
-            
+            controller.afisareMasini();
         }
     }
 }

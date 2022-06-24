@@ -1,0 +1,10 @@
+﻿1,1,Dodge,Ram Van 3500,Crimson,2000
+2,1,Ford,Thunderbird,Goldenrod,2004
+3,4,Cadillac,Fleetwood,Aquamarine,1954
+4,3,Toyota,Truck Xtracab SR5,Crimson,1989
+5,5,Infiniti,J,Mauv,1996
+6,8,Dodge,Monaco,Maroon,1992
+7,9,GMC,Rally Wagon 3500,Purple,1992
+8,6,Hyundai,Accent,Turquoise,2007
+9,10,Volkswagen,Jetta,Teal,1993
+10,9,Suzuki,Daewoo Lacetti,Violet,2006

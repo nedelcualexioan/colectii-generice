@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace colectii_generice.colectii
 {
-    class Lista<T> where T:IComparable<T>
+    public class Lista<T> : IComparable<Lista<T>> where T:IComparable<T> 
     {
         Node<T> head;
 
@@ -217,7 +217,7 @@ namespace colectii_generice.colectii
                 }
             } while (flag == 1);
         }
-
+        
         private T max()
         {
             T max = head.Data;
@@ -272,6 +272,17 @@ namespace colectii_generice.colectii
         public void swap(ref Lista<T> other)
         {
             (other.Head, this.Head) = (this.Head, other.Head);
+        }
+
+        public int CompareTo(Lista<T> other)
+        {
+            if (this.size().Equals(other.size()))
+                return 0;
+
+            if (this.size() > other.size())
+                return 1;
+
+            return -1;
         }
     }
 }

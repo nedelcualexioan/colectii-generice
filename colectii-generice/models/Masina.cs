@@ -8,20 +8,44 @@ namespace colectii_generice
 {
     public class Masina:IComparable<Masina>
     {
-
+        private int id;
+        private int persId;
         private String marca;
         private String model;
         private String culoare;
         private int anFabricatie;
 
-        public Masina(String marca,String model,String culoare,int anFabricatie)
+        public Masina(int id, int persId, String marca, String model, String culoare, int anFabricatie)
         {
+            this.id = id;
+            this.persId = persId;
             this.marca = marca;
             this.model = model;
             this.culoare = culoare;
             this.anFabricatie = anFabricatie;
         }
 
+        public Masina(String line)
+        {
+            id = int.Parse(line.Split(',')[0]);
+            persId = int.Parse(line.Split(',')[1]);
+            marca = line.Split(',')[2];
+            model = line.Split(',')[3];
+            culoare = line.Split(',')[4];
+            anFabricatie = int.Parse(line.Split(',')[5]);
+        }
+
+        public int Id
+        {
+            get => id;
+            set => id = value;
+        }
+
+        public int PersId
+        {
+            get => persId;
+            set => persId = value;
+        }
         public String Marca
         {
             get => this.marca;
@@ -71,6 +95,8 @@ namespace colectii_generice
         {
             String text = "";
 
+            text += "ID: " + id + "\n";
+            text += "ID proprietar: " + persId + "\n";
             text += "Marca: " + marca + "\n";
             text += "Model: " + model + "\n";
             text += "Culoare: " + culoare + "\n";

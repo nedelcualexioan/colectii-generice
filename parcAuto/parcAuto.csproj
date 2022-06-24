@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0-windows\colectii-generice.deps.json" />
+    <Content Include="bin\Debug\net5.0-windows\colectii-generice.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0-windows\colectii-generice.runtimeconfig.json" />
+    <Content Include="bin\Debug\net5.0-windows\parcAuto.deps.json" />
+    <Content Include="bin\Debug\net5.0-windows\parcAuto.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0-windows\parcAuto.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net5.0-windows\colectii-generice.dll" />
+    <None Include="bin\Debug\net5.0-windows\colectii-generice.exe" />
+    <None Include="bin\Debug\net5.0-windows\colectii-generice.pdb" />
+    <None Include="bin\Debug\net5.0-windows\database\masini.txt" />
+    <None Include="bin\Debug\net5.0-windows\database\persoane.txt" />
+    <None Include="bin\Debug\net5.0-windows\parcAuto.dll" />
+    <None Include="bin\Debug\net5.0-windows\parcAuto.exe" />
+    <None Include="bin\Debug\net5.0-windows\parcAuto.pdb" />
+    <None Include="bin\Debug\net5.0-windows\ref\parcAuto.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\colectii-generice\colectii-generice.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Mockupuri\MockupHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mockupuri\MockupHome.Designer.cs">
+      <DependentUpon>MockupHome.cs</DependentUpon>
+    </Compile>
+    <Compile Update="PnlHome.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PnlModels.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="FrmHome.resx">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Mockupuri\MockupHome.resx">
+      <DependentUpon>MockupHome.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "parcAuto/1.0.0": {
+        "dependencies": {
+          "colectii-generice": "1.0.0"
+        },
+        "runtime": {
+          "parcAuto.dll": {}
+        }
+      },
+      "colectii-generice/1.0.0": {
+        "runtime": {
+          "colectii-generice.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "parcAuto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "colectii-generice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

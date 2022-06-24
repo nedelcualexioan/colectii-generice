@@ -6,4 +6,19 @@
     <RootNamespace>colectii_generice</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0\colectii-generice.deps.json" />
+    <Content Include="bin\Debug\net5.0\colectii-generice.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0\colectii-generice.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net5.0\colectii-generice.dll" />
+    <None Include="bin\Debug\net5.0\colectii-generice.exe" />
+    <None Include="bin\Debug\net5.0\colectii-generice.pdb" />
+    <None Include="bin\Debug\net5.0\database\masini.txt" />
+    <None Include="bin\Debug\net5.0\database\persoane.txt" />
+    <None Include="bin\Debug\net5.0\ref\colectii-generice.dll" />
+  </ItemGroup>
+
 </Project>
